@@ -14,7 +14,7 @@ stages{
 
 
  
-  stage('jira')
+/*  stage('jira')
   {
     steps
     {
@@ -190,7 +190,7 @@ stage('Jenkins'){
         log_function("JENKINS","Failed")
       }
     }
-}
+}*/
 
 
 
@@ -233,7 +233,7 @@ stage('Jenkins'){
     }
     }
            
-            }  */
+            }  
 	
 	
 	
@@ -344,7 +344,7 @@ stage('Nexus')
     }
     
                  }
-    }
+    }*/
             
 
 	
@@ -390,12 +390,6 @@ stage('Nexus')
     }
                 
       }
-	
-	
-	
-	
-
-
 
 }
 }
